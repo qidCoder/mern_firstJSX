@@ -1,0 +1,15 @@
+.App {
+  /* text-align: center; */
+}
+
+
+li {/*removes bullet point*/
+  position: relative;
+  list-style: none;
+}
+
+
+
+ul > li:before{/*creates asterisk bullet point*/
+
+	content:"*  ";}
